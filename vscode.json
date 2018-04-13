@@ -1,6 +1,6 @@
 {
     // Editor
-    "editor.fontFamily": "Fira Code Medium",
+    "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
     "editor.minimap.enabled": false,
@@ -10,8 +10,7 @@
     // Git
     "git.confirmSync": false,    
     // Terminal
-    "terminal.integrated.fontFamily": "Fira Code Medium",
-    "terminal.integrated.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Fira Code",
     // Workbench
     "workbench.colorTheme": "One Dark Pro",    
     "workbench.iconTheme": "material-icon-theme",
@@ -35,10 +34,12 @@
         "terminal.ansiBrightCyan": "#9aedfe",
         "terminal.ansiBrightWhite": "#eff0eb"
     },
-    // Window
-    "window.menuBarVisibility": "toggle",
     // Extensions
     "todohighlight.keywords": [{
+        "text": "COMPONENT LOGIC:",
+        "color": "#282c34",
+        "backgroundColor": "#FFFF00"
+    }, {
         "text": "TODO:",
         "color": "#282c34"
     }, {
@@ -46,7 +47,7 @@
         "color": "#282c34",
         "backgroundColor": "#4CAF50"
     }, {
-        "text": "REVIEW:",
+        "text": "TEMP:",
         "color": "#282c34",
         "backgroundColor": "#2196F3"
     }, {
@@ -57,5 +58,7 @@
         "text": "HACK:",
         "color": "#282c34",
         "backgroundColor": "#F44336"
-    }]
+    }
+],
+"material-icon-theme.showUpdateMessage": false
 }
